@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/materialize.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    
     <title>Bisdak Tours and Travel</title>
   </head>
   <body>
+    <nav class="navbar navbar-light">
+      <a href="navbar-brand">Bisdak Tours and Travel</a>
+    </nav>
+    <div class="container-fluid">
+    </div>
     <h1>Hello, world!</h1>
 
     <!-- Optional JavaScript -->
