@@ -7,13 +7,14 @@
 
     <!-- Bootstrap CSS -->
     <!-- <link rel="stylesheet" type="text/css" href="assets/css/materialize.css"> -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"  integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     
     <title>Bisdak Tours and Travel</title>
   </head>
   <body>
-    <nav class="navbar navbar-light">
-      <a href="navbar-brand">Bisdak Tours and Travel</a>
+    <!-- As a link -->
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
     </nav>
     <div class="container-fluid">
     </div>
