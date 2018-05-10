@@ -1,4 +1,19 @@
+
+body {
+	background-color:#555;
+}
+
 /* Navbar custom designs*/
+.navbar-fixed {
+	position: absolute;
+	z-index: 999999999;
+}
+
 img.brand-logo-image {
-	padding-top: 10px;
+	padding-top: 5px;
+}
+
+.navbar.scrolled {
+  background-color: #4CAF50 !important;
+  transition: background-color 200ms linear;
 }
