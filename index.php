@@ -9,8 +9,10 @@
 	    <!-- CSS -->
 	    <link rel="stylesheet" type="text/css" href="materialize/css/materialize.min.css">
 	    <link rel="stylesheet" type="text/css" href="materialize/css/style.css">
+      <!-- Browser Tab Icon -->
+      <link rel="icon" type="text/css" href="materialize/images/bisdak_logo2.svg">
 
-		<title>Bisdak Tours and Travel</title>
+		<title>Golden Travel and Tours</title>
 	</head>
 	<body>
 		<div class="navbar-fixed">
@@ -19,7 +21,7 @@
 					<a id="logo-container" href="#" class="brand-logo">
 						<!-- <img class="brand-logo-image" src="assets/images/bisdak_logo2.svg" height="40" alt=""> -->
 						<i class="material-icons">flight</i>
-						Tours and Travel
+						Golden Travel and Tours
 					</a>
 					<ul class="right hide-on-med-and-down">
 						<li class="active"><a href="#">Home</a></li>
@@ -37,16 +39,33 @@
 				</div>
 			</nav>
 		</div>
-		<div class="parallax-container">
-			<div class="carousel carousel-slider">
+		<div class="row">
+			<div class="carousel carousel-slider center">
 				<div class="carousel-fixed-item center">
 					<a class="btn btn-large waves-effect red white-text darken-text-2">Cebu Tours Package</a>
 				</div>
-				<a class="carousel-item" href="#one!"><img src="materialize/images/Sample_1.jpg"></a>
+				<!-- <a class="carousel-item" href="#one!"><img src="materialize/images/Sample_1.jpg"></a>
 				<a class="carousel-item" href="#two!"><img src="materialize/images/Sample_2.jpg"></a>
 				<a class="carousel-item" href="#three!"><img src="materialize/images/Sample_3.jpg"></a>
-				<a class="carousel-item" href="#four!"><img src="materialize/images/Sample_4.jpg"></a>
-			</div>
+				<a class="carousel-item" href="#four!"><img src="materialize/images/Sample_4.jpg"></a> -->
+        <div class="carousel-item red white-text" href="#one!">
+          <h2>First Panel</h2>
+          <p class="white-text">This is your first panel</p>
+          <img src="materialize/images/Sample_1.jpg">
+        </div>
+        <div class="carousel-item yellow white-text" href="#two!">
+          <h2>Second Panel</h2>
+          <p class="white-text">This is your second panel</p>
+        </div>
+        <div class="carousel-item blue white-text" href="#three!">
+          <h2>Third Panel</h2>
+          <p class="white-text">This is your third panel</p>
+        </div>
+        <div class="carousel-item teal white-text" href="#four!">
+          <h2>Fourth Panel</h2>
+          <p class="white-text">This is your fourth panel</p>
+        </div>
+      </div>
 		</div>
 
 		<!-- <section class="video-container">

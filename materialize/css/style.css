@@ -17,3 +17,11 @@ img.brand-logo-image {
   background-color: #4CAF50 !important;
   transition: background-color 200ms linear;
 }
+
+/* Carousel */
+.carousel-item > h1 {
+	position: relative;
+	margin-top: 100px;
+	/*background: url(../images/Sample_1.jpg);*/
+	/*background-size: 100%;*/
+}
