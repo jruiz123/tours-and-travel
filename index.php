@@ -37,14 +37,16 @@
 				</div>
 			</nav>
 		</div>
-		<div class="carousel carousel-slider">
-			<div class="carousel-fixed-item center">
-				<a class="btn btn-large waves-effect red white-text darken-text-2">Cebu Tours Package</a>
+		<div class="parallax-container">
+			<div class="carousel carousel-slider">
+				<div class="carousel-fixed-item center">
+					<a class="btn btn-large waves-effect red white-text darken-text-2">Cebu Tours Package</a>
+				</div>
+				<a class="carousel-item" href="#one!"><img src="materialize/images/Sample_1.jpg"></a>
+				<a class="carousel-item" href="#two!"><img src="materialize/images/Sample_2.jpg"></a>
+				<a class="carousel-item" href="#three!"><img src="materialize/images/Sample_3.jpg"></a>
+				<a class="carousel-item" href="#four!"><img src="materialize/images/Sample_4.jpg"></a>
 			</div>
-			<a class="carousel-item" href="#one!"><img src="materialize/images/Sample_1.jpg"></a>
-			<a class="carousel-item" href="#two!"><img src="materialize/images/Sample_2.jpg"></a>
-			<a class="carousel-item" href="#three!"><img src="materialize/images/Sample_3.jpg"></a>
-			<a class="carousel-item" href="#four!"><img src="materialize/images/Sample_4.jpg"></a>
 		</div>
 
 		<!-- <section class="video-container">
