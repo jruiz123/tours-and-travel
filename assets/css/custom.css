@@ -1,0 +1,7 @@
+/* For center logo */
+@media (min-width: 768px) {
+.navbar-brand.abs
+    {
+        position: absolute;
+        width: 100%;    }
+}
