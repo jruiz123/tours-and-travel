@@ -10,41 +10,49 @@
 	   <link rel="stylesheet" href="assets/css/style.css">
 	   <link rel="stylesheet" href="assets/css/colors.css">
 	   <link rel="stylesheet" href="assets/css/open-iconic-bootstrap.css">
+		<link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+      
       <!-- Browser Tab Icon -->
       <link rel="icon" type="text/css" href="assets/images/gtat_logo_1.png">
+
 	</head>
 	<body>
-		<!-- <nav class="fixed-top transparent">
-			<div class="navbar navbar-dark box-shadow">
-				<div class="container d-flex justify-content-between">
-					<a href="#" class="navbar-brand d-flex align-items-center">
-						<img src="assets/images/gtat_logo_2.png" height="30" alt="">
-					</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="oi oi-menu" title="menu" aria-hidden="true"></span>
-					</button>
-				</div>
+		<nav class="navbar fixed-top navbar-toggleable-sm navbar-inverse">
+			<div class="col-sm-1 menu-button">
+				<button type="button" id="sidebarCollapse" class="navbar-toggler white-text">
+					<span class="oi oi-menu" title="menu" aria-hidden="true"></span>
+				</button>
 			</div>
-			<div class="collapse" id="navbarHeader">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-8 col-md-7 py-4">
-							<h4 class="text-white">About</h4>
-							<p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
-						</div>
-						<div class="col-sm-4 offset-md-1 py-4">
-							<h4 class="text-white">Contact</h4>
-							<ul class="list-unstyled">
-								<li><a href="#" class="text-white">Follow on Twitter</a></li>
-								<li><a href="#" class="text-white">Like on Facebook</a></li>
-								<li><a href="#" class="text-white">Email me</a></li>
-							</ul>
-						</div>
+			<div>
+				<a class="navbar-brand mx-auto" href="#" style="margin-left: -130px;">
+					<img src="assets/images/gtat_logo_2.png" height="100" alt="">
+				</a>
+			</div>
+			<div class="col-sm-1">
+				&nbsp;
+			</div>
+			<div id="sidebar">
+				<div class="sidebar-header">
+					<div id="dismiss">
+						<span class="oi oi-x" title="Close" aria-hidden="true"></span>
 					</div>
-				</div>
+             </div>
+				<ul class="list-unstyled components">
+					<li class="active">
+						<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
+					</li>
+					<li>
+						<a href="#">Tour Packages</a>
+					</li>
+					<li>
+						<a href="#">About Us</a>
+					</li>
+					<li>
+						<a href="#">Contact Us</a>
+					</li>
+				</ul>
 			</div>
 		</nav>
-		-->
 
 		<div class="carousel-body">
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -55,21 +63,21 @@
 				</ol>
 				<div class="carousel-inner" role="listbox">
 					<!-- Slide One - Set the background image for this slide in the line below -->
-					<div class="carousel-item active" style="background-image: url('assets/images/Sample_1.jpg')">
+					<div class="carousel-item active" style="background-image: url('assets/images/hd1.jpg')">
 						<div class="carousel-caption d-none d-md-block">
 							<h3>First Slide</h3>
 							<p>This is a description for the first slide.</p>
 						</div>
 					</div>
 					<!-- Slide Two - Set the background image for this slide in the line below -->
-					<div class="carousel-item" style="background-image: url('assets/images/Sample_2.jpg')">
+					<div class="carousel-item" style="background-image: url('assets/images/hd2.jpg')">
 						<div class="carousel-caption d-none d-md-block">
 							<h3>Second Slide</h3>
 							<p>This is a description for the second slide.</p>
 						</div>
 					</div>
 					<!-- Slide Three - Set the background image for this slide in the line below -->
-					<div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+					<div class="carousel-item" style="background-image: url('assets/images/hd3.jpg')">
 						<div class="carousel-caption d-none d-md-block">
 							<h3>Third Slide</h3>
 							<p>This is a description for the third slide.</p>
@@ -129,7 +137,28 @@
 		<script src="assets/js/popper.min.js"></script>
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/holder.min.js"></script>
-		<script src="assets/js/mdb.min.js"></script>
+
+		<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+		<script type="text/javascript">
+         $(document).ready(function () {
+             $("#sidebar").mCustomScrollbar({
+                 theme: "minimal"
+             });
+
+             $('#dismiss, .overlay').on('click', function () {
+                 $('#sidebar').removeClass('active');
+                 $('.overlay').fadeOut();
+             });
+
+             $('#sidebarCollapse').on('click', function () {
+                 $('#sidebar').addClass('active');
+                 $('.overlay').fadeIn();
+                 $('.collapse.in').toggleClass('in');
+                 $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+             });
+         });
+     </script>
 
 	</body>
 </html>
