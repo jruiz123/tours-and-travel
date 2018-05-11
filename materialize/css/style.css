@@ -1,8 +1,3 @@
-
-body {
-	background-color:#555;
-}
-
 /* Navbar custom designs*/
 .navbar-fixed {
 	position: absolute;
@@ -16,12 +11,4 @@ img.brand-logo-image {
 .navbar.scrolled {
   background-color: #4CAF50 !important;
   transition: background-color 200ms linear;
-}
-
-/* Carousel */
-.carousel-item > h1 {
-	position: relative;
-	margin-top: 100px;
-	/*background: url(../images/Sample_1.jpg);*/
-	/*background-size: 100%;*/
 }
