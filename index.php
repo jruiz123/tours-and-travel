@@ -34,8 +34,7 @@
 			<div class="navbar navbar-dark bg-dark box-shadow">
 				<div class="container d-flex justify-content-between">
 					<a href="#" class="navbar-brand d-flex align-items-center">
-						<img src="assets/images/gtat_logo_1.png" height="30" alt="">
-						Golden Travels And Tour
+						<img src="assets/images/gtat_logo_2.png" height="30" alt="">
 					</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
 						<!-- <span class="navbar-toggler-icon"></span> -->
