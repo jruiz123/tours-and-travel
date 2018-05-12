@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<title>GTAT</title>
+		<title>Golden Travels and Tour</title>
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,17 +18,17 @@
 	</head>
 	<body>
 		<nav class="navbar fixed-top navbar-toggleable-sm navbar-inverse">
-			<div class="col-sm-1 menu-button">
+			<div class="col-xs-1 menu-button">
 				<button type="button" id="sidebarCollapse" class="navbar-toggler white-text">
 					<span class="oi oi-menu" title="menu" aria-hidden="true"></span>
 				</button>
 			</div>
-			<div>
-				<a class="navbar-brand mx-auto" href="#" style="margin-left: -130px;">
-					<img src="assets/images/gtat_logo_2.png" height="100" alt="">
+			<div class="col-xs-10">
+				<a class="navbar-brand mx-auto" href="index.php" style="margin-left: -130px;">
+					<img src="assets/images/gtat_logo_2.png" height="90" alt="">
 				</a>
 			</div>
-			<div class="col-sm-1">
+			<div class="col-xs-1">
 				&nbsp;
 			</div>
 			<div id="sidebar">
@@ -39,10 +39,10 @@
              </div>
 				<ul class="list-unstyled components">
 					<li class="active">
-						<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
+						<a href="index.php">Home</a>
 					</li>
 					<li>
-						<a href="#">Tour Packages</a>
+						<a href="tour-packages.php">Tour Packages</a>
 					</li>
 					<li>
 						<a href="#">About Us</a>
@@ -54,6 +54,7 @@
 			</div>
 		</nav>
 
+
 		<div class="carousel-body">
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
@@ -62,21 +63,18 @@
 					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 				</ol>
 				<div class="carousel-inner" role="listbox">
-					<!-- Slide One - Set the background image for this slide in the line below -->
 					<div class="carousel-item active" style="background-image: url('assets/images/hd1.jpg')">
 						<div class="carousel-caption d-none d-md-block">
 							<h3>First Slide</h3>
 							<p>This is a description for the first slide.</p>
 						</div>
 					</div>
-					<!-- Slide Two - Set the background image for this slide in the line below -->
 					<div class="carousel-item" style="background-image: url('assets/images/hd2.jpg')">
 						<div class="carousel-caption d-none d-md-block">
 							<h3>Second Slide</h3>
 							<p>This is a description for the second slide.</p>
 						</div>
 					</div>
-					<!-- Slide Three - Set the background image for this slide in the line below -->
 					<div class="carousel-item" style="background-image: url('assets/images/hd3.jpg')">
 						<div class="carousel-caption d-none d-md-block">
 							<h3>Third Slide</h3>
@@ -95,6 +93,31 @@
 			</div>
 		</div>
 
+		<!-- <div class="row fixed-bottom">
+			<div class="col col-sm-1"></div>
+			<div class="col col-xs-4">
+				<div class="card">
+					<img class="card-img-top" src="..." alt="Card image cap">
+						<div class="card-body">
+						<h4 class="card-title">Card title</h4>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				</div>
+			</div>
+			<div class="col col-sm-2"></div>
+			<div class="col col-xs-4">
+				<div class="card">
+					<img class="card-img-top" src="..." alt="Card image cap">
+						<div class="card-body">
+						<h4 class="card-title">Card title</h4>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				</div>
+			</div>
+			<div class="col col-sm-1"></div>
+		</div> -->
 		<!-- Page Content -->
 		<!-- <section class="py-5">
 			<div class="container">
@@ -131,6 +154,37 @@
 		<!-- <h1>
 			Hello World!
 		</h1> -->
+
+
+		<footer class="footer fixed-bottom ">
+			<div class="row">
+				<div class="col col-xs-1"></div>
+				<div class="col col-xs-5">
+					<a href="" id="footer-link" class="btn btn-outline-light btn-sm btn-block">
+						Cebu Tour Packages
+					</a>
+				</div>
+				<div class="col col-xs-5">
+					<a href="" id="footer-link" class="btn btn-outline-light btn-sm btn-block">
+						Bohol Tour Packages
+					</a>
+				</div>
+				<div class="col col-xs-1"></div>
+			</div>
+			<div class="break"></div>
+		</footer>
+
+
+
+
+
+
+
+
+
+
+
+
 	   <!-- JavaScript -->
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script>window.jQuery || document.write('<script src="assets/js/jquery-slim.min.js"><\/script>')</script>
