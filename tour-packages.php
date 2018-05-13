@@ -11,13 +11,15 @@
 	   <link rel="stylesheet" href="assets/css/colors.css">
 	   <link rel="stylesheet" href="assets/css/open-iconic-bootstrap.css">
 		<link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+
+		<link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
       
       <!-- Browser Tab Icon -->
       <link rel="icon" type="text/css" href="assets/images/gtat_logo_1.png">
 
 	</head>
 	<body>
-		<nav class="navbar navbar-toggleable-sm navbar-inverse grey darken-3">
+		<nav class="navbar navbar-toggleable-sm navbar-inverse fixed-top grey darken-3">
 			<div class="col-xs-1">
 				<button type="button" id="sidebarCollapse" class="navbar-toggler white-text">
 					<span class="oi oi-menu" title="menu" aria-hidden="true"></span>
@@ -56,45 +58,64 @@
 	   <div role="main">
 
 	      <section class="text-center grey darken-2">
-	        <div class="container">
-	            <a href="#cebu" class="btn btn- btn-outline-light my-2 btn-golden btn-active">Cebu Tour Packages</a>
-	            <a href="#bohol" class="btn btn- btn-outline-light my-2 btn-golden">Bohol Tour Packages</a>
-	        </div>
+	      	<br />
+	      	<br />
+	      	<br />
+				<div class="container">
+					<a href="#cebu" class="btn btn- btn-outline-light my-2 btn-golden btn-active">Cebu Tour Packages</a>
+					<a href="#bohol" class="btn btn- btn-outline-light my-2 btn-golden">Bohol Tour Packages</a>
+				</div>
 	      </section>
 
 	      <div class="album py-5 bg-light">
-	        <div class="container">
-	          <div class="row">
-	            <div class="col-md-4">
-	              <div class="card mb-4 box-shadow">
-	                <img class="card-img-top" src="assets/images/Sample_1.jpg" data-src="assets/images/Sample_1.jpg" alt="Card image cap">
-	                <div class="card-body">
-	                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-	                  <div class="d-flex justify-content-between align-items-left">
-	                    <div class="btn-group">
-	                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-	                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-	                    </div>
-	                    <small class="text-muted">9 mins</small>
-	                  </div>
-	                </div>
-	              </div>
-	            </div>
-	            <div class="col-md-4">
-	              <div class="card mb-4 box-shadow">
-	                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-	                <div class="card-body">
-	                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-	                  <div class="d-flex justify-content-between align-items-center">
-	                    <div class="btn-group">
-	                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-	                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-	                    </div>
-	                    <small class="text-muted">9 mins</small>
-	                  </div>
-	                </div>
-	              </div>
-	            </div>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card mb-4 box-shadow">
+								<a href="">
+									<img class="card-img-top" src="assets/images/Sample_1.jpg" data-src="assets/images/Sample_1.jpg" alt="Card image cap">
+								</a>
+								<div class="card-body grey darken-2 white-text">
+									<h5 class="card-title golden-text">Kawasan Falls and Osmeña Peak</h5>
+									<div class="card-text">
+										<p class="h6"><span class="oi oi-check"></span>&nbsp;Visit the two of the most visited spots in Cebu</p>
+										<p class="h6"><span class="oi oi-check"></span>&nbsp;Be at the highest peak in Cebu, Osmeña Peak</p>
+										<p class="h6"><span class="oi oi-check"></span>&nbsp;Relax at the Kawasan Waterfalls in Badian</p>
+									</div>
+									<div class="d-flex justify-content-between align-items-left">
+										<div class="btn-group">
+											<button type="button" class="btn btn-sm btn-outline-light btn-golden btn-active">View Info</button>
+										</div>
+										<span class="oi oi-cash"></span><span class="h6 golden-text"><strong>P 1,000</strong></span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="card mb-4 box-shadow">
+								<a href="">
+									<img class="card-img-top" src="assets/images/Sample_2.jpg" data-src="assets/images/Sample_2.jpg" alt="Card image cap">
+								</a>
+								<div class="card-body grey darken-2 white-text">
+									<h5 class="card-title golden-text">Cebu and Lapu-Lapu City Tour</h5>
+									<div class="card-text">
+										<p class="h6"><span class="oi oi-check"></span>&nbsp;Enjoy up to 8 hours in Cebu and Mactan Island</p>
+										<p class="h6"><span class="oi oi-check"></span>&nbsp;Top Tourist atraction in Cebu City</p>
+										<p class="h6"><span class="oi oi-check"></span>&nbsp;Cheapest Twin City tour package</p>
+									</div>
+									<div class="d-flex justify-content-between align-items-left">
+										<div class="btn-group">
+											<button type="button" class="btn btn-sm btn-outline-light btn-golden btn-active">View Info</button>
+										</div>
+										<span class="oi oi-cash"></span><span class="h6 golden-text"><strong>P 600</strong></span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+
 	            <div class="col-md-4">
 	              <div class="card mb-4 box-shadow">
 	                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">

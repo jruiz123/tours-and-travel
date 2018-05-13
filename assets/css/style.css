@@ -155,4 +155,8 @@ a[aria-expanded="true"]::before {
     font-weight: 500;
 }
 
+.golden-text {
+    color: #fcdb04;
+}
+
 /* Tour Package */
