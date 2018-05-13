@@ -1,5 +1,5 @@
 /* Navbar */
-nav {
+.bg-gradient {
     background: linear-gradient(rgba(0,0,0,0.4), transparent) ;
 }
 
@@ -12,7 +12,7 @@ nav {
 }
 
 @media (max-width: 576px) {
-    a.navbar-brand > img {
+    a.navbar-brand > img#home-logo {
         height: 40px;
     }
     .menu-button {
@@ -21,7 +21,7 @@ nav {
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    a.navbar-brand > img {
+    a.navbar-brand > img#home-logo {
         height: 75px;
     }
     .menu-button {
@@ -148,9 +148,11 @@ a[aria-expanded="true"]::before {
     height: 10px;
 }
 
-#footer-link:hover {
+.btn-golden:hover, .btn-golden.btn-active {
     background: #fcdb04;
     border-color: #fcdb04;
     color: #fff;
     font-weight: 500;
 }
+
+/* Tour Package */

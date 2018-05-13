@@ -17,7 +17,7 @@
 
 	</head>
 	<body>
-		<nav class="navbar fixed-top navbar-toggleable-sm navbar-inverse">
+		<nav class="navbar fixed-top navbar-toggleable-sm navbar-inverse bg-gradient">
 			<div class="col-xs-1 menu-button">
 				<button type="button" id="sidebarCollapse" class="navbar-toggler white-text">
 					<span class="oi oi-menu" title="menu" aria-hidden="true"></span>
@@ -25,7 +25,7 @@
 			</div>
 			<div class="col-xs-10">
 				<a class="navbar-brand mx-auto" href="index.php" style="margin-left: -130px;">
-					<img src="assets/images/gtat_logo_2.png" height="90" alt="">
+					<img id="home-logo" src="assets/images/gtat_logo_2.png" height="90" alt="">
 				</a>
 			</div>
 			<div class="col-xs-1">
@@ -160,12 +160,12 @@
 			<div class="row">
 				<div class="col col-xs-1"></div>
 				<div class="col col-xs-5">
-					<a href="" id="footer-link" class="btn btn-outline-light btn-sm btn-block">
+					<a href="tour-packages.php#cebu" class="btn btn-outline-light btn-sm btn-block btn-golden">
 						Cebu Tour Packages
 					</a>
 				</div>
 				<div class="col col-xs-5">
-					<a href="" id="footer-link" class="btn btn-outline-light btn-sm btn-block">
+					<a href="tour-packages.php#bohol" id="footer-link" class="btn btn-outline-light btn-sm btn-block btn-golden">
 						Bohol Tour Packages
 					</a>
 				</div>
@@ -173,19 +173,8 @@
 			</div>
 			<div class="break"></div>
 		</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-	   <!-- JavaScript -->
+		
+		<!-- JavaScript -->
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script>window.jQuery || document.write('<script src="assets/js/jquery-slim.min.js"><\/script>')</script>
 		<script src="assets/js/popper.min.js"></script>
