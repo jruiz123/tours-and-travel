@@ -208,23 +208,14 @@
 
 	   </div>
 
-		<footer class="footer red">
-			<div class="row">
-				<div class="col col-xs-1"></div>
-				<div class="col col-xs-5">
-					<a href="" id="footer-link" class="btn btn-outline-light btn-sm btn-block">
-						Cebu Tour Packages
-					</a>
-				</div>
-				<div class="col col-xs-5">
-					<a href="" id="footer-link" class="btn btn-outline-light btn-sm btn-block">
-						Bohol Tour Packages
-					</a>
-				</div>
-				<div class="col col-xs-1"></div>
-			</div>
-			<div class="break"></div>
-		</footer>
+	   <footer class="text-muted">
+	      <div class="container">
+	      	<p class="float-right">
+	         	<a href="#">Back to top</a>
+	      	</p>
+	      	<p>&copy; All Rights Reserved 2018</p>
+	      </div>
+	   </footer>
 
 		<!-- JavaScript -->
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
