@@ -73,7 +73,7 @@
 						<div class="col-md-4">
 							<div class="card mb-4 box-shadow">
 								<a href="">
-									<img class="card-img-top" src="assets/images/Sample_1.jpg" data-src="assets/images/Sample_1.jpg" alt="Card image cap">
+									<img class="card-img-top" src="assets/images/kawasan_osmenia.png" data-src="assets/images/kawasan_osmenia.png" alt="Card image cap">
 								</a>
 								<div class="card-body grey darken-2 white-text">
 									<h5 class="card-title golden-text">Kawasan Falls and Osmeña Peak</h5>
@@ -95,7 +95,7 @@
 						<div class="col-md-4">
 							<div class="card mb-4 box-shadow">
 								<a href="">
-									<img class="card-img-top" src="assets/images/Sample_2.jpg" data-src="assets/images/Sample_2.jpg" alt="Card image cap">
+									<img class="card-img-top" src="assets/images/cebu_lapu-lapu.png" data-src="assets/images/cebu_lapu-lapu.png" alt="Card image cap">
 								</a>
 								<div class="card-body grey darken-2 white-text">
 									<h5 class="card-title golden-text">Cebu and Lapu-Lapu City Tour</h5>
@@ -114,118 +114,74 @@
 							</div>
 						</div>
 
+						<div class="col-md-4">
+							<div class="card mb-4 box-shadow">
+								<a href="">
+									<img class="card-img-top" src="assets/images/Chocolate-hills.png" data-src="assets/images/Chocolate-hills.jpg" alt="Card image cap">
+								</a>
+								<div class="card-body grey darken-2 white-text">
+									<h5 class="card-title golden-text">Chocolate Hills Tour</h5>
+									<div class="card-text">
+										<p class="h6"><span class="oi oi-check"></span>&nbsp;Tour the beautiful countryside of Bohol</p>
+										<p class="h6"><span class="oi oi-check"></span>&nbsp;Visit the world-famous Chocolate Hills</p>
+										<p class="h6"><span class="oi oi-check"></span>&nbsp;Cruise along majestic Loboc River</p>
+									</div>
+									<div class="d-flex justify-content-between align-items-left">
+										<div class="btn-group">
+											<button type="button" class="btn btn-sm btn-outline-light btn-golden btn-active">View Info</button>
+										</div>
+										<span class="oi oi-cash"></span><span class="h6 golden-text"><strong>P 600</strong></span>
+									</div>
+								</div>
+							</div>
+						</div>
 
+						<div class="col-md-4">
+							<div class="card mb-4 box-shadow">
+								<a href="">
+									<img class="card-img-top" src="assets/images/dolphins.png" data-src="assets/images/dolphins.png" alt="Card image cap">
+								</a>
+								<div class="card-body grey darken-2 white-text">
+									<h5 class="card-title golden-text">Dolphin Watching Tour</h5>
+									<div class="card-text">
+										<p class="h6"><span class="oi oi-check"></span>&nbsp;Watch and meet the friendly and playful dolphins</p>
+										<p class="h6"><span class="oi oi-check"></span>&nbsp;Go snorkling and see white sand beaches</p>
+										<p class="h6"><span class="oi oi-check"></span>&nbsp;Relax in the best resorts in bohol</p>
+									</div>
+									<div class="d-flex justify-content-between align-items-left">
+										<div class="btn-group">
+											<button type="button" class="btn btn-sm btn-outline-light btn-golden btn-active">View Info</button>
+										</div>
+										<span class="oi oi-cash"></span><span class="h6 golden-text"><strong>P 2,600</strong></span>
+									</div>
+								</div>
+							</div>
+						</div>
 
-	            <div class="col-md-4">
-	              <div class="card mb-4 box-shadow">
-	                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-	                <div class="card-body">
-	                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-	                  <div class="d-flex justify-content-between align-items-center">
-	                    <div class="btn-group">
-	                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-	                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-	                    </div>
-	                    <small class="text-muted">9 mins</small>
-	                  </div>
-	                </div>
-	              </div>
-	            </div>
-
-	            <div class="col-md-4">
-	              <div class="card mb-4 box-shadow">
-	                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-	                <div class="card-body">
-	                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-	                  <div class="d-flex justify-content-between align-items-center">
-	                    <div class="btn-group">
-	                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-	                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-	                    </div>
-	                    <small class="text-muted">9 mins</small>
-	                  </div>
-	                </div>
-	              </div>
-	            </div>
-	            <div class="col-md-4">
-	              <div class="card mb-4 box-shadow">
-	                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-	                <div class="card-body">
-	                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-	                  <div class="d-flex justify-content-between align-items-center">
-	                    <div class="btn-group">
-	                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-	                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-	                    </div>
-	                    <small class="text-muted">9 mins</small>
-	                  </div>
-	                </div>
-	              </div>
-	            </div>
-	            <div class="col-md-4">
-	              <div class="card mb-4 box-shadow">
-	                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-	                <div class="card-body">
-	                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-	                  <div class="d-flex justify-content-between align-items-center">
-	                    <div class="btn-group">
-	                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-	                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-	                    </div>
-	                    <small class="text-muted">9 mins</small>
-	                  </div>
-	                </div>
-	              </div>
-	            </div>
-
-	            <div class="col-md-4">
-	              <div class="card mb-4 box-shadow">
-	                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-	                <div class="card-body">
-	                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-	                  <div class="d-flex justify-content-between align-items-center">
-	                    <div class="btn-group">
-	                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-	                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-	                    </div>
-	                    <small class="text-muted">9 mins</small>
-	                  </div>
-	                </div>
-	              </div>
-	            </div>
-	            <div class="col-md-4">
-	              <div class="card mb-4 box-shadow">
-	                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-	                <div class="card-body">
-	                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-	                  <div class="d-flex justify-content-between align-items-center">
-	                    <div class="btn-group">
-	                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-	                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-	                    </div>
-	                    <small class="text-muted">9 mins</small>
-	                  </div>
-	                </div>
-	              </div>
-	            </div>
-	            <div class="col-md-4">
-	              <div class="card mb-4 box-shadow">
-	                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-	                <div class="card-body">
-	                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-	                  <div class="d-flex justify-content-between align-items-center">
-	                    <div class="btn-group">
-	                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-	                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-	                    </div>
-	                    <small class="text-muted">9 mins</small>
-	                  </div>
-	                </div>
-	              </div>
-	            </div>
-	          </div>
-	        </div>
-	      </div>
+						<div class="col-md-4">
+							<div class="card mb-4 box-shadow">
+								<a href="">
+									<img class="card-img-top" src="assets/images/island-hopping.png" data-src="assets/images/island-hopping.png" alt="Card image cap">
+								</a>
+								<div class="card-body grey darken-2 white-text">
+									<h5 class="card-title golden-text">Island Hopping Tour</h5>
+									<div class="card-text">
+										<p class="h6"><span class="oi oi-check"></span>&nbsp;Watch the friendly dolphins and whales of Balicasag Island</p>
+										<p class="h6"><span class="oi oi-check"></span>&nbsp;Finish the trip with a visit to beautiful Virgin Island</p>
+										<p class="h6"><span class="oi oi-check"></span>&nbsp;Can order delicious seafood on boat</p>
+									</div>
+									<div class="d-flex justify-content-between align-items-left">
+										<div class="btn-group">
+											<button type="button" class="btn btn-sm btn-outline-light btn-golden btn-active">View Info</button>
+										</div>
+										<span class="oi oi-cash"></span><span class="h6 golden-text"><strong>P 2,600</strong></span>
+									</div>
+								</div>
+							</div>
+						</div>
+	          	</div>
+				</div>
+		</div>
 
 	   </div>
 
