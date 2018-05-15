@@ -44,10 +44,10 @@
 						<a href="index.php">Home</a>
 					</li>
 					<li class="active">
-						<a href="tour-packages.php">Tour Packages</a>
+						<a href="#">Tour Packages</a>
 					</li>
 					<li>
-						<a href="#">About Us</a>
+						<a href="about-us.php">About Us</a>
 					</li>
 					<li>
 						<a href="#">Contact Us</a>
@@ -188,7 +188,7 @@
 	   <footer class="text-muted">
 	      <div class="container">
 	      	<p class="float-right">
-	         	<a href="#">Back to top</a>
+	         	<a href="#" class="grey-text text-darken-2"><span class="oi oi-chevron-top" title="chevron top" aria-hidden="true"></span>&nbsp;Back to top</a>
 	      	</p>
 	      	<p>&copy; All Rights Reserved 2018</p>
 	      </div>

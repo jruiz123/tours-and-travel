@@ -127,7 +127,6 @@ a[aria-expanded="true"]::before {
 
 /* Carousel */
 .carousel-item {
-    margin-bottom: 20px;
     height: 100vh;
     min-height: 300px;
     background: no-repeat center center scroll;

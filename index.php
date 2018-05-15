@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<title>Golden Travels and Tour tests</title>
+		<title>Golden Travels and Tour</title>
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -45,7 +45,7 @@
 						<a href="tour-packages.php">Tour Packages</a>
 					</li>
 					<li>
-						<a href="#">About Us</a>
+						<a href="about-us.php">About Us</a>
 					</li>
 					<li>
 						<a href="#">Contact Us</a>
@@ -65,20 +65,23 @@
 				<div class="carousel-inner" role="listbox">
 					<div class="carousel-item active" style="background-image: url('assets/images/repo/kawasan 1.jpg')">
 						<div class="carousel-caption d-none d-md-block">
-							<p>Take a dip in the cold waters of the majestic Kawasan Falls.</p>
-						  <a href="tour-packages.php#cebu" class="btn btn-danger">Kawasan Falls and Osmeña Peak Tour</a>
+							<p class="h5">Take a dip in the cold waters of the majestic Kawasan Falls.</p>
+						  <a href="tour-packages.php#cebu" class="btn btn-danger btn-lg">Check Details</a>
+              <br /><br />
             </div>
 					</div>
 					<div class="carousel-item" style="background-image: url('assets/images/repo/island hopping.jpg')">
 						<div class="carousel-caption d-none d-md-block">
-							<p>Explore the colorful reefs hidden in the islands of Bohol.</p>
-						  <a href="tour-packages.php#cebu" class="btn btn-danger">Island Hopping Tour</a>
-						</div>
+							<p class="h5">Explore the colorful reefs hidden in the islands of Bohol.</p>
+						  <a href="tour-packages.php#cebu" class="btn btn-danger btn-lg">Check Details</a>
+						  <br /><br />
+            </div>
 					</div>
-					<div class="carousel-item" style="background-image: url('assets/images/hd3.jpg')">
+					<div class="carousel-item" style="background-image: url('assets/images/repo/chocolate hills.jpg')">
 						<div class="carousel-caption d-none d-md-block">
-							<h3>Third Slide</h3>
-							<p>This is a description for the third slide.</p>
+							<p class="h5">Visit the magnificient Chocolate Hill of Bohol.</p>
+						  <a href="tour-packages.php#cebu" class="btn btn-danger btn-lg">Check Details</a>
+						  <br /><br />
 						</div>
 					</div>
 				</div>
@@ -96,12 +99,12 @@
 			<div class="row">
 				<div class="col col-xs-1"></div>
 				<div class="col col-xs-5">
-					<a href="tour-packages.php#cebu" class="btn btn-outline-light btn-sm btn-block btn-golden">
+					<a href="tour-packages.php#cebu" class="btn btn-outline-light btn-block btn-golden">
 						Cebu Tour Packages
 					</a>
 				</div>
 				<div class="col col-xs-5">
-					<a href="tour-packages.php#bohol" id="footer-link" class="btn btn-outline-light btn-sm btn-block btn-golden">
+					<a href="tour-packages.php#bohol" id="footer-link" class="btn btn-outline-light btn-block btn-golden">
 						Bohol Tour Packages
 					</a>
 				</div>
