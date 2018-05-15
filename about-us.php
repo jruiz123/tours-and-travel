@@ -55,24 +55,23 @@
 				</ul>
 			</div>
 		</nav>
-	   <div role="main">
+    <section class="text-center grey darken-2">
+      <br /><br /><br />
+      <div class="container">
+        <img id="page-logo" src="assets/images/gtat_logo_2.png" height="140" alt="">
+      </div>
+      <br />
+    </section>
 
-	      <section class="text-center grey darken-2">
-	      	<br /><br /><br />
-          <div class="container">
-            <img id="page-logo" src="assets/images/gtat_logo_2.png" height="140" alt="">
-          </div>
-          <br />
-	      </section>
-
-        <div class="container">
-            <div class="row grey-text text-darken-3">
-              <h1>About Golden Travels and Tour</h1>
-                <p>Lorem ipsum dolor sit amet, et vis quis soluta perpetua. An utinam iisque qualisque mea, ei vel unum iusto consequuntur. Ad nec magna errem. Rebum diceret admodum at sea, in dolorum consectetuer comprehensam mei. Te quo euismod sensibus comprehensam, eu vidit adipisci prodesset vel, quo ut esse vocent.</p>
-                <p>Suscipit recusabo dissentiunt at nam. Alienum iracundia pri an. Duo et officiis mediocrem, qui ex tota veniam. Per ad probo inani, odio mazim vix cu.</p>
-                <p>Nobis periculis argumentum eu vix. Solum mucius epicurei mei at. Inani aperiri quaestio mel cu, simul percipitur eu eum. Pro te novum nullam consetetur.</p>
-            </div>
-        </div>
+    <div class="container">
+      <div class="row grey-text text-darken-3">
+        <h1>About Golden Travels and Tour</h1>
+        <p>Lorem ipsum dolor sit amet, et vis quis soluta perpetua. An utinam iisque qualisque mea, ei vel unum iusto consequuntur. Ad nec magna errem. Rebum diceret admodum at sea, in dolorum consectetuer comprehensam mei. Te quo euismod sensibus comprehensam, eu vidit adipisci prodesset vel, quo ut esse vocent. Suscipit recusabo dissentiunt at nam. Alienum iracundia pri an. Duo et officiis mediocrem, qui ex tota veniam. Per ad probo inani, odio mazim vix cu.</p>
+        <p>Nobis periculis argumentum eu vix. Solum mucius epicurei mei at. Inani aperiri quaestio mel cu, simul percipitur eu eum. Pro te novum nullam consetetur.</p>
+        <p>Lorem ipsum dolor sit amet, et vis quis soluta perpetua. An utinam iisque qualisque mea, ei vel unum iusto consequuntur. Ad nec magna errem. Rebum diceret admodum at sea, in dolorum consectetuer comprehensam mei. Te quo euismod sensibus comprehensam, eu vidit adipisci prodesset vel, quo ut esse vocent. Suscipit recusabo dissentiunt at nam. Alienum iracundia pri an. Duo et officiis mediocrem, qui ex tota veniam. Per ad probo inani, odio mazim vix cu.</p>
+        <p>Nobis periculis argumentum eu vix. Solum mucius epicurei mei at. Inani aperiri quaestio mel cu, simul percipitur eu eum. Pro te novum nullam consetetur.</p>p
+      </div>
+    </div>
 
 	   <footer class="text-muted">
 	      <div class="container">

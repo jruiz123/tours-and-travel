@@ -63,24 +63,24 @@
 					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 				</ol>
 				<div class="carousel-inner" role="listbox">
-					<!-- <div class="carousel-item active" style="background-image: url('assets/images/repo_2/kawasan-1.jpg')"> -->
-					<div class="carousel-item active" style="background-image: url('https://image.ibb.co/g2KHgJ/kawasan_1.jpg')">
+					<div class="carousel-item active" style="background-image: url('assets/images/repo_2/kawasan-1.jpg')">
+<!-- 					<div class="carousel-item active" style="background-image: url('https://image.ibb.co/g2KHgJ/kawasan_1.jpg')"> -->
 						<div class="carousel-caption d-md-block">
 							<p class="h5">Take a dip in the cold waters of the majestic Kawasan Falls.</p>
 						  <a href="tour-packages.php#cebu" class="btn btn-danger btn-lg">Check Details</a>
               <br /><br />
             </div>
 					</div>
-					<!-- <div class="carousel-item" style="background-image: url('assets/images/repo_2/island-hopping.jpg')"> -->
-					<div class="carousel-item" style="background-image: url('https://image.ibb.co/gW1V1J/island_hopping.jpg')">
+					<div class="carousel-item" style="background-image: url('assets/images/repo_2/island-hopping.jpg')">
+<!-- 					<div class="carousel-item" style="background-image: url('https://image.ibb.co/gW1V1J/island_hopping.jpg')"> -->
 						<div class="carousel-caption d-md-block">
 							<p class="h5">Explore the colorful reefs hidden in the islands of Bohol.</p>
 						  <a href="tour-packages.php#cebu" class="btn btn-danger btn-lg">Check Details</a>
 						  <br /><br />
             </div>
 					</div>
-					<!-- <div class="carousel-item" style="background-image: url('assets/images/repo_2/chocolate-hills.jpg')"> -->
-					<div class="carousel-item" style="background-image: url('https://image.ibb.co/eHJM8y/chocolate_hills.jpg')">
+					<div class="carousel-item" style="background-image: url('assets/images/repo_2/chocolate-hills.jpg')">
+<!-- 					<div class="carousel-item" style="background-image: url('https://image.ibb.co/eHJM8y/chocolate_hills.jpg')"> -->
 						<div class="carousel-caption d-md-block">
 							<p class="h5">Visit the magnificient Chocolate Hill of Bohol.</p>
 						  <a href="tour-packages.php#cebu" class="btn btn-danger btn-lg">Check Details</a>
