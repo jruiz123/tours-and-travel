@@ -63,22 +63,22 @@
 					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 				</ol>
 				<div class="carousel-inner" role="listbox">
-					<div class="carousel-item active" style="background-image: url('assets/images/repo/kawasan 1.jpg')">
-						<div class="carousel-caption d-none d-md-block">
+					<div class="carousel-item active" style="background-image: url('assets/images/repo_2/kawasan-1.jpg')">
+						<div class="carousel-caption d-md-block">
 							<p class="h5">Take a dip in the cold waters of the majestic Kawasan Falls.</p>
 						  <a href="tour-packages.php#cebu" class="btn btn-danger btn-lg">Check Details</a>
               <br /><br />
             </div>
 					</div>
-					<div class="carousel-item" style="background-image: url('assets/images/repo/island hopping.jpg')">
-						<div class="carousel-caption d-none d-md-block">
+					<div class="carousel-item" style="background-image: url('assets/images/repo_2/island-hopping.jpg')">
+						<div class="carousel-caption d-md-block">
 							<p class="h5">Explore the colorful reefs hidden in the islands of Bohol.</p>
 						  <a href="tour-packages.php#cebu" class="btn btn-danger btn-lg">Check Details</a>
 						  <br /><br />
             </div>
 					</div>
-					<div class="carousel-item" style="background-image: url('assets/images/repo/chocolate hills.jpg')">
-						<div class="carousel-caption d-none d-md-block">
+					<div class="carousel-item" style="background-image: url('assets/images/repo_2/chocolate-hills.jpg')">
+						<div class="carousel-caption d-md-block">
 							<p class="h5">Visit the magnificient Chocolate Hill of Bohol.</p>
 						  <a href="tour-packages.php#cebu" class="btn btn-danger btn-lg">Check Details</a>
 						  <br /><br />
@@ -97,18 +97,17 @@
 		</div>
   	<footer class="footer fixed-bottom ">
 			<div class="row">
-				<div class="col col-xs-1"></div>
-				<div class="col col-xs-5">
+				<div class="col-xs-5 col-sm-4 offset-sm-2 offset-md-2 btn-cebu-package">
 					<a href="tour-packages.php#cebu" class="btn btn-outline-light btn-block btn-golden">
 						Cebu Tour Packages
 					</a>
 				</div>
-				<div class="col col-xs-5">
+				<!-- <div class="col col-xs-5"> -->
+				<div class="col-xs-5 col-sm-4">
 					<a href="tour-packages.php#bohol" id="footer-link" class="btn btn-outline-light btn-block btn-golden">
 						Bohol Tour Packages
 					</a>
 				</div>
-				<div class="col col-xs-1"></div>
 			</div>
 			<div class="break"></div>
 		</footer>

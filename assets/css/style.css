@@ -11,12 +11,28 @@
     border: none;
 }
 
+.carousel-indicators, .carousel-caption {
+    bottom: 50px;
+}
+
 @media (max-width: 576px) {
     a.navbar-brand > img#home-logo {
         height: 40px;
     }
+    
     .menu-button {
         margin-top: 0px;
+    }
+
+    .carousel-caption {
+        bottom: 100px;
+    }
+
+    .carousel-indicators {
+        bottom: 100px;
+    }
+    .btn-cebu-package {
+        bottom: 10px;
     }
 }
 
@@ -136,9 +152,6 @@ a[aria-expanded="true"]::before {
     background-size: cover;
 }
 
-.carousel-indicators, .carousel-caption {
-    bottom: 50px;
-}
 
 .carousel-indicators:hover {
     cursor: pointer;
@@ -149,11 +162,17 @@ a[aria-expanded="true"]::before {
     height: 10px;
 }
 
+.btn-golden {
+    background: rgba(252,219,4,0.6);
+    border: none;
+    font-weight: 500;
+    font-size: large
+}
+
 .btn-golden:hover, .btn-golden.btn-active {
     background: #fcdb04;
     border-color: #fcdb04;
     color: #fff;
-    font-weight: 500;
 }
 
 .golden-text {
