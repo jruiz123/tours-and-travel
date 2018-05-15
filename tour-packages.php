@@ -117,7 +117,7 @@
 						<div class="col-md-4">
 							<div class="card mb-4 box-shadow">
 								<a href="">
-									<img class="card-img-top" src="assets/images/Chocolate-hills.png" data-src="assets/images/Chocolate-hills.jpg" alt="Card image cap">
+									<img class="card-img-top" src="assets/images/chocolate-hills.png" data-src="assets/images/chocolate-hills.jpg" alt="Card image cap">
 								</a>
 								<div class="card-body grey darken-2 white-text">
 									<h5 class="card-title golden-text">Chocolate Hills Tour</h5>

@@ -63,16 +63,16 @@
 					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 				</ol>
 				<div class="carousel-inner" role="listbox">
-					<div class="carousel-item active" style="background-image: url('assets/images/hd1.jpg')">
+					<div class="carousel-item active" style="background-image: url('assets/images/repo/kawasan 1.jpg')">
 						<div class="carousel-caption d-none d-md-block">
-							<h3>First Slide</h3>
-							<p>This is a description for the first slide.</p>
-						</div>
+							<p>Take a dip in the cold waters of the majestic Kawasan Falls.</p>
+						  <a href="tour-packages.php#cebu" class="btn btn-danger">Kawasan Falls and Osmeña Peak Tour</a>
+            </div>
 					</div>
-					<div class="carousel-item" style="background-image: url('assets/images/hd2.jpg')">
+					<div class="carousel-item" style="background-image: url('assets/images/repo/island hopping.jpg')">
 						<div class="carousel-caption d-none d-md-block">
-							<h3>Second Slide</h3>
-							<p>This is a description for the second slide.</p>
+							<p>Explore the colorful reefs hidden in the islands of Bohol.</p>
+						  <a href="tour-packages.php#cebu" class="btn btn-danger">Island Hopping Tour</a>
 						</div>
 					</div>
 					<div class="carousel-item" style="background-image: url('assets/images/hd3.jpg')">
@@ -92,71 +92,7 @@
 				</a>
 			</div>
 		</div>
-
-		<!-- <div class="row fixed-bottom">
-			<div class="col col-sm-1"></div>
-			<div class="col col-xs-4">
-				<div class="card">
-					<img class="card-img-top" src="..." alt="Card image cap">
-						<div class="card-body">
-						<h4 class="card-title">Card title</h4>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Go somewhere</a>
-					</div>
-				</div>
-			</div>
-			<div class="col col-sm-2"></div>
-			<div class="col col-xs-4">
-				<div class="card">
-					<img class="card-img-top" src="..." alt="Card image cap">
-						<div class="card-body">
-						<h4 class="card-title">Card title</h4>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Go somewhere</a>
-					</div>
-				</div>
-			</div>
-			<div class="col col-sm-1"></div>
-		</div> -->
-		<!-- Page Content -->
-		<!-- <section class="py-5">
-			<div class="container">
-				<h1>Full Slider by Start Bootstrap</h1>
-				<p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the
-				 <code>full-slider.css</code>
-				 file.</p>
-			</div>
-		</section> -->
-
-		<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<a class="navbar-brand" href="#">
-				<img src="assets/images/gtat_logo_1.png" height="30" alt="">
-				Golden Travels And Tour
-			</a>
-			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-				<ul class="navbar-nav">
-					<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					 <span class="navbar-toggler-icon"></span>
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						 <a class="dropdown-item" href="#">Action</a>
-						 <a class="dropdown-item" href="#">Another action</a>
-						 <a class="dropdown-item" href="#">Something else here</a>
-					</div>
-					</li>
-				</ul>
-			</div>
-		</nav> -->
-		<!-- <h1>
-			Hello World!
-		</h1> -->
-
-
-		<footer class="footer fixed-bottom ">
+  	<footer class="footer fixed-bottom ">
 			<div class="row">
 				<div class="col col-xs-1"></div>
 				<div class="col col-xs-5">
