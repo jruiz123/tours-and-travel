@@ -55,28 +55,43 @@
 				</ul>
 			</div>
 		</nav>
+    
     <section class="text-center grey darken-2">
       <br /><br /><br />
       <div class="container">
-        <img id="page-logo" src="assets/images/gtat_logo_2.png" height="140" alt="">
+        <a href="index.php">
+          <img id="page-logo" src="assets/images/gtat_logo_2.png" height="140" alt="">
+        </a>
       </div>
       <br />
     </section>
-
+    
     <div class="container">
       <div class="row grey-text text-darken-3">
-        <p class="h1">Contact Us</p>
-        <br /><br /><br /><br />
-        <p class="h4">Contact us for your inquiries and reservations</p>
-        <p>Please use the form below to make inquiries or reservations. All your information is safe and secure with us. Please read our <a href="#">privacy policy</a> for more details.</p>
-        <p>If you don't want to use the form, you can call/text us at +639162292783 (Globe). You can also e-mail us at goldentravelsandtour@gmail.com</p>
-        
-        <form>
-          <input type=""/>
-        </form>
-        
-        
-        
+        <div class="col-sm-12">
+          <p class="h1">Contact Us</p>
+          <p class="h4">Contact us for your inquiries and reservations</p>
+        </div>
+        <div class="col-md-6">
+          <p>Please use the form below to make inquiries or reservations. All your information is safe and secure with us. Please read our <a href="#">privacy policy</a> for more details.</p>
+          <p>If you don't want to use the form, you can call/text us at +639162292783 (Globe). You can also e-mail us at goldentravelsandtour@gmail.com</p>
+        </div>
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="name" class="control-label"><strong>Full Name:</strong></label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name"/>
+            </div>
+            <div class="form-group">
+              <label for="email" class="control-label"><strong>Email:</strong></label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email"/>
+            </div>
+            <div class="form-group">
+              <label for="phone" class="control-label"><strong>Phone:</strong></label>
+              <input type="mobile" class="form-control" id="email" placeholder="Your Phone Number"/>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
 

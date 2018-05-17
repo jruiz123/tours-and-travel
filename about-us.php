@@ -58,7 +58,9 @@
     <section class="text-center grey darken-2">
       <br /><br /><br />
       <div class="container">
-        <img id="page-logo" src="assets/images/gtat_logo_2.png" height="140" alt="">
+        <a href="index.php">
+          <img id="page-logo" src="assets/images/gtat_logo_2.png" height="140" alt="">
+        </a>
       </div>
       <br />
     </section>
