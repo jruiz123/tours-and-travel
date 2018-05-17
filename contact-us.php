@@ -10,9 +10,7 @@
 	   <link rel="stylesheet" href="assets/css/style.css">
 	   <link rel="stylesheet" href="assets/css/colors.css">
 	   <link rel="stylesheet" href="assets/css/open-iconic-bootstrap.css">
-		<link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
-
-		<link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
+		  <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
       
       <!-- Browser Tab Icon -->
       <link rel="icon" type="text/css" href="assets/images/gtat_logo_1.png">
@@ -26,7 +24,7 @@
 				</button>
 			</div>
 			<div class="col-xs-10">
-        <!-- <a class="navbar-brand mx-auto" href="index.php">
+<!--         <a class="navbar-brand mx-auto" href="index.php">
 					<img id="page-logo" src="assets/images/gtat_logo_2.png" height="40" alt="">
 				</a> -->
 			</div>
@@ -76,25 +74,45 @@
           <p>Please use the form below to make inquiries or reservations. All your information is safe and secure with us. Please read our <a href="#">privacy policy</a> for more details.</p>
           <p>If you don't want to use the form, you can call/text us at +639162292783 (Globe). You can also e-mail us at goldentravelsandtour@gmail.com</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 card">
           <form>
             <div class="form-group">
               <label for="name" class="control-label"><strong>Full Name:</strong></label>
-              <input type="text" class="form-control" id="name" placeholder="Your Name"/>
+              <input type="text" class="form-control" id="name" placeholder="Your Name" required/>
             </div>
             <div class="form-group">
               <label for="email" class="control-label"><strong>Email:</strong></label>
-              <input type="email" class="form-control" id="email" placeholder="Your Email"/>
+              <input type="email" class="form-control" id="email" placeholder="Your Email" required/>
             </div>
             <div class="form-group">
               <label for="phone" class="control-label"><strong>Phone:</strong></label>
-              <input type="mobile" class="form-control" id="email" placeholder="Your Phone Number"/>
+              <input type="mobile" class="form-control" id="phone" placeholder="Your Phone Number" required/>
             </div>
+            <div class="form-group">
+              <label for="address" class="control-label"><strong>Address:</strong></label>
+              <input type="mobile" class="form-control" id="address" placeholder="Pick Up Address or Hotel Name" required/>
+            </div>
+            <div class="form-group">
+              <label for="subject" class="control-label"><strong>Subject:</strong></label>
+              <select class="form-control" id="subject">
+                <option class="disabled">--Select One--</option>
+                <option>To Hire Our Service</option>
+                <option>To Ask A Question</option>
+                <option>To Report Problem with Website</option>
+                <option>Others</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+            <div class="break"></div>
           </form>
         </div>
       </div>
     </div>
-
+    <div class="break"></div>
 	   <footer class="text-muted">
 	      <div class="container">
 	      	<p class="float-right">
@@ -110,11 +128,12 @@
 		<script src="assets/js/popper.min.js"></script>
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/holder.min.js"></script>
-
-		<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-
+    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    
+    
 		<script type="text/javascript">
-         $(document).ready(function () {
+      
+      $(document).ready(function () {
              $("#sidebar").mCustomScrollbar({
                  theme: "minimal"
              });
@@ -130,6 +149,8 @@
                  $('.collapse.in').toggleClass('in');
                  $('a[aria-expanded=true]').attr('aria-expanded', 'false');
              });
+           
+             
          });
      </script>
 
