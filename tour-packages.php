@@ -50,7 +50,7 @@
 						<a href="about-us.php">About Us</a>
 					</li>
 					<li>
-						<a href="#">Contact Us</a>
+						<a href="contact-us.php">Contact Us</a>
 					</li>
 				</ul>
 			</div>

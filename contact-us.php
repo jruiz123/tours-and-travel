@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<title>Golden Travels and Tour | About Us</title>
+		<title>Golden Travels and Tour | Contact Us</title>
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -46,11 +46,11 @@
 					<li>
 						<a href="tour-packages.php">Tour Packages</a>
 					</li>
-					<li class="active">
-						<a href="#">About Us</a>
-					</li>
 					<li>
-						<a href="contact-us.php">Contact Us</a>
+						<a href="about-us.php">About Us</a>
+					</li>
+					<li class="active">
+						<a href="#">Contact Us</a>
 					</li>
 				</ul>
 			</div>
@@ -65,11 +65,18 @@
 
     <div class="container">
       <div class="row grey-text text-darken-3">
-        <h1>About Golden Travels and Tour</h1>
-        <p>Lorem ipsum dolor sit amet, et vis quis soluta perpetua. An utinam iisque qualisque mea, ei vel unum iusto consequuntur. Ad nec magna errem. Rebum diceret admodum at sea, in dolorum consectetuer comprehensam mei. Te quo euismod sensibus comprehensam, eu vidit adipisci prodesset vel, quo ut esse vocent. Suscipit recusabo dissentiunt at nam. Alienum iracundia pri an. Duo et officiis mediocrem, qui ex tota veniam. Per ad probo inani, odio mazim vix cu.</p>
-        <p>Nobis periculis argumentum eu vix. Solum mucius epicurei mei at. Inani aperiri quaestio mel cu, simul percipitur eu eum. Pro te novum nullam consetetur.</p>
-        <p>Lorem ipsum dolor sit amet, et vis quis soluta perpetua. An utinam iisque qualisque mea, ei vel unum iusto consequuntur. Ad nec magna errem. Rebum diceret admodum at sea, in dolorum consectetuer comprehensam mei. Te quo euismod sensibus comprehensam, eu vidit adipisci prodesset vel, quo ut esse vocent. Suscipit recusabo dissentiunt at nam. Alienum iracundia pri an. Duo et officiis mediocrem, qui ex tota veniam. Per ad probo inani, odio mazim vix cu.</p>
-        <p>Nobis periculis argumentum eu vix. Solum mucius epicurei mei at. Inani aperiri quaestio mel cu, simul percipitur eu eum. Pro te novum nullam consetetur.</p>p
+        <p class="h1">Contact Us</p>
+        <br /><br /><br /><br />
+        <p class="h4">Contact us for your inquiries and reservations</p>
+        <p>Please use the form below to make inquiries or reservations. All your information is safe and secure with us. Please read our <a href="#">privacy policy</a> for more details.</p>
+        <p>If you don't want to use the form, you can call/text us at +639162292783 (Globe). You can also e-mail us at goldentravelsandtour@gmail.com</p>
+        
+        <form>
+          <input type=""/>
+        </form>
+        
+        
+        
       </div>
     </div>
 

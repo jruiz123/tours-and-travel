@@ -48,7 +48,7 @@
 						<a href="about-us.php">About Us</a>
 					</li>
 					<li>
-						<a href="#">Contact Us</a>
+						<a href="contact-us.php">Contact Us</a>
 					</li>
 				</ul>
 			</div>
@@ -64,7 +64,7 @@
 				</ol>
 				<div class="carousel-inner" role="listbox">
 					<div class="carousel-item active" style="background-image: url('assets/images/repo_2/kawasan-1.jpg')">
-<!-- 					<div class="carousel-item active" style="background-image: url('https://image.ibb.co/g2KHgJ/kawasan_1.jpg')"> -->
+<!-- 					<div class="carousel-item active" style="background-image: url('https://drive.google.com/uc?export=view&id=1cBZsWiZt_-NS0UGOCbXueOrMARInW_It')"> --><!-- From Google Drive-->
 						<div class="carousel-caption d-md-block">
 							<p class="h5">Take a dip in the cold waters of the majestic Kawasan Falls.</p>
 						  <a href="tour-packages.php#cebu" class="btn btn-danger btn-lg">Check Details</a>
@@ -126,10 +126,11 @@
 
 		<script type="text/javascript">
          $(document).ready(function () {
+             
              $("#sidebar").mCustomScrollbar({
                  theme: "minimal"
              });
-
+           
              $('#dismiss, .overlay').on('click', function () {
                  $('#sidebar').removeClass('active');
                  $('.overlay').fadeOut();
