@@ -73,7 +73,7 @@
 						<div class="col-md-4">
 							<div class="card mb-4 box-shadow">
 								<a href="">
-									<img class="card-img-top" src="assets/images/kawasan_osmenia.png" data-src="assets/images/kawasan_osmenia.png" alt="Card image cap">
+									<img class="card-img-top" src="assets/images/thumb_1.png" data-src="assets/images/thumb_1.png" alt="Card image cap">
 								</a>
 								<div class="card-body grey darken-2 white-text">
 									<h5 class="card-title golden-text">Kawasan Falls and Osmeña Peak</h5>
@@ -95,7 +95,7 @@
 						<div class="col-md-4">
 							<div class="card mb-4 box-shadow">
 								<a href="">
-									<img class="card-img-top" src="assets/images/cebu_lapu-lapu.png" data-src="assets/images/cebu_lapu-lapu.png" alt="Card image cap">
+									<img class="card-img-top" src="assets/images/thumb_2.png" data-src="assets/images/thumb_2.png" alt="Card image cap">
 								</a>
 								<div class="card-body grey darken-2 white-text">
 									<h5 class="card-title golden-text">Cebu and Lapu-Lapu City Tour</h5>
@@ -117,7 +117,7 @@
 						<div class="col-md-4">
 							<div class="card mb-4 box-shadow">
 								<a href="">
-									<img class="card-img-top" src="assets/images/chocolate-hills.png" data-src="assets/images/chocolate-hills.jpg" alt="Card image cap">
+									<img class="card-img-top" src="assets/images/thumb_3.png" data-src="assets/images/thumb_3.jpg" alt="Card image cap">
 								</a>
 								<div class="card-body grey darken-2 white-text">
 									<h5 class="card-title golden-text">Chocolate Hills Tour</h5>
@@ -139,7 +139,7 @@
 						<div class="col-md-4">
 							<div class="card mb-4 box-shadow">
 								<a href="">
-									<img class="card-img-top" src="assets/images/dolphins.png" data-src="assets/images/dolphins.png" alt="Card image cap">
+									<img class="card-img-top" src="assets/images/thumb_4.png" data-src="assets/images/thumb_4.png" alt="Card image cap">
 								</a>
 								<div class="card-body grey darken-2 white-text">
 									<h5 class="card-title golden-text">Dolphin Watching Tour</h5>
@@ -161,7 +161,7 @@
 						<div class="col-md-4">
 							<div class="card mb-4 box-shadow">
 								<a href="">
-									<img class="card-img-top" src="assets/images/island-hopping.png" data-src="assets/images/island-hopping.png" alt="Card image cap">
+									<img class="card-img-top" src="assets/images/thumb_5.png" data-src="assets/images/thumb_5.png" alt="Card image cap">
 								</a>
 								<div class="card-body grey darken-2 white-text">
 									<h5 class="card-title golden-text">Island Hopping Tour</h5>
