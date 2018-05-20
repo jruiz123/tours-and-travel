@@ -73,7 +73,9 @@
 						<div class="col-md-4">
 							<div class="card mb-4 box-shadow">
 								<a href="">
-									<img class="card-img-top" src="assets/images/thumb_1.png" data-src="assets/images/thumb_1.png" alt="Card image cap">
+									<img class="card-img-top" 
+                       style="background: url('assets/images/thumb_2.png') no-repeat;"
+                       src="assets/images/thumb_1.png" data-src="assets/images/thumb_1.png" alt="Card image cap">
 								</a>
 								<div class="card-body grey darken-2 white-text">
 									<h5 class="card-title golden-text">Kawasan Falls and Osmeña Peak</h5>
